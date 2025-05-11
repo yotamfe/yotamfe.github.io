@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<!-- This website is based on https://github.com/r02b/academic-website-template -->
+<html lang="en">
+    <head>
+        <!-- scripts, css and such -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans|Space+Mono|Muli|Garamond">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+            <link href="assets/css/main.css" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+            <meta charset="UTF-8">
+
+            <!-- Title! -->
+            <title>Yotam Feldman</title>
+    </head>
+
+    <body>
+
+        <div id="nav-placeholder"></div>
+
+        <div id="content">
+            <div class="row">
+
+            <!-- Main content div  - insert sections here -->
+            <div id="text" class="col-md-8">
+
+            <!-- Each section is made of a title and content. Remember to link each section in /elements/nav.html ! -->
+                <div class="section" id="about">
+                    <div class="section-title">
+                        About
+                    </div>
+                    <div class="section-content">
+                        I am a <a href="https://schmidtsciencefellows.org/fellow/yotam-feldman/">Schmidt Science Fellow</a> (postdoctoral) in Dr. <a href="https://english.tau.ac.il/profile/hirshb">Barak Hirshberg</a>'s group at the School of Chemistry, Tel Aviv University, working primarily on path integral molecular dynamics simulations. I did my PhD in computer science as part of the Programming Languages group at Tel Aviv University, advised by Prof. <a href="http://cs.tau.ac.il/~msagiv">Mooly Sagiv</a> and Prof. <a href="http://www.tau.ac.il/~sharonshoham/">Sharon Shoham</a>.
+            <br><br>
+            My research interests include molecular dynamics simulations, path integral molecular dynamics, quantum dynamics, electronic structure, and quantum materials; also program analysis and verification, formal logic, and the correctness of concurrent data structures.
+
+            <br><br>
+            My <a href="assets/phd_thesis/phd_thesis.pdf">PhD thesis</a> was about a theoretical understanding of how invariant inference algorithms operate, and how (unexpectedly) this has a lot to do with machine learning theory. It was recognized with the <span class="brag">2024 ETAPS Doctoral Dissertation Award</span> 
+            <a href="assets/phd_thesis/inference-complexity-thesis24-etaps.pptx">[slides]
+            <a href="https://www.youtube.com/watch?v=g1NSjTEXzLc">[earlier video from the Simons institute]</a>.
+
+            <br>
+            My <a href="assets/msc_thesis/msc_thesis.pdf">MSc thesis</a> proved the surprising strength of simple quantifier instantiation schemes for automatic deductive verification of quantified invariants in first-order logic.
+
+            <br><br>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/28797729/">Here</a> is my most impactfaul scientific contribution to humanity so far.
+
+                    </div>
+                </div>
+
+
+                <div class="section" id="publications">
+                    <div class="section-title">
+                        Publications
+                    </div>
+                    <div class="subsection-title">
+                        Computational Chemistry
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li id="periodic-pimdb">
+                                <span class="paper-name">Periodic Boundary Conditions for Bosonic Path Integral Molecular Dynamics</span>
+                                <br>
+                                <span class="paper-authors">Jacob Higer*, <span class="me">Yotam M. Y. Feldman</span>*, and Barak Hirshberg.</span>
+                                <br>
+                                <span class="paper-venue">In submission.</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/2501.17618" target="_blank">[draft]</a>
+                                </span>
+                            </li>
+                            <li id="metamaterials-defects">
+                                <span class="paper-name">Defect Positioning in Combinatorial Metamaterials</span>
+                                <br>
+                                <span class="paper-authors">Chaviva Sirote-Katz, <span class="me">Yotam M. Y. Feldman</span>, Guy Cohen, Tamás Kálmán, and Yair Shokef.</span>
+                                <br>
+                                <span class="paper-venue">In submission.</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/2412.01227" target="_blank">[draft]</a>
+                                </span>
+                            </li>
+                            <li id="ipi3.0">
+                                <span class="paper-name">i-PI 3.0: a flexible and efficient framework for advanced atomistic simulations</span>
+                                <br>
+                                <span class="paper-authors">Yair Litman, Venkat Kapil, <span class="me">Yotam M. Y. Feldman</span>, Davide Tisi, Tomislav Begušić, Karen Fidanyan, Guillaume Fraux, Jacob Higer, Matthias Kellner, Tao E. Li, Eszter S. Pós, Elia Stocco, George Trenins, Barak Hirshberg, Mariana Rossi, and Michele Ceriotti.</span>
+                                <br>
+                                <span class="paper-venue">J. Chem. Phys. 2024</span>
+                                <span class="paper-details">
+                                    <a href="https://pubs.aip.org/aip/jcp/article/161/6/062504/3308034/i-PI-3-0-A-flexible-and-efficient-framework-for" target="_blank">[paper]</a>
+                                </span>
+                            </li>
+                            <li id="quadratic-pimdb">
+                                <span class="paper-name">Quadratic Scaling Bosonic Path Integral Molecular Dynamics</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span> and Barak Hirshberg.</span>
+                                <br>
+                                <span class="paper-venue">J. Chem. Phys. 2023</span>
+                                <img style="height:1em" class='Editor’s Pick' alt='Editor’s Pick' title='Editor’s Pick' src='https://pubs.aip.org/Themes/Client/app/img/editorspick-icon.svg' ></img>
+                                <span class="paper-details">
+                                    <a href="https://doi.org/10.1063/5.0173749" target="_blank">[paper]</a>
+                                    <a href="assets/papers/quadratic_pimdb/quadratic_pimdb_cecam23.pptx" target="_blank">[slides]</a>
+                                    <a href="https://ub.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f31f7bb8-945c-432f-b370-b0b4011ac65e&start=2913.273109" target="_blank">[video]</a>
+                                </span>
+                                <br>
+                                <span class="brag">J. Chem. Phys. Best Paper by an Emerging Investigator 2023</span> (<a href="https://publishing.aip.org/about/news/announcing-the-winners-of-the-2023-jcp-emerging-investigator-awards/">announcement</a>).
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                
+                    <div class="subsection-title">
+                        Computer Science
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li id="mypyvy">
+                                <span class="paper-name">mypyvy: A Research Platform for Verification of Transition Systems in First-Order Logic (Tool Paper)</span>
+                                <br>
+                                <span class="paper-authors">James R. Wilcox, <span class="me">Yotam M. Y. Feldman</span>, Oded Padon, and Sharon Shoham.</span>
+                                <br>
+                                <span class="paper-venue">CAV 2024</span>
+                                <span class="paper-details">
+                                    <a href="https://link.springer.com/chapter/10.1007/978-3-031-65630-9_4">[paper]</a>
+                                </span>
+                            </li>
+                            <li id="rp22">
+                                <span class="paper-name">SAT-Based Invariant Inference and Its Relation to Concept Learning (Invited Paper)</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span> and Sharon Shoham.</span>
+                                <br>
+                                <span class="paper-venue">RP 2022</span>
+                                <span class="paper-details">
+                                    <a href="assets/papers/rp22/rp22.pdf">[paper]</a>
+                                </span>
+                            </li>
+                            <li id="sas22">
+                                <span class="paper-name">Invariant Inference With Provable Complexity From the Monotone Theory</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span> and Sharon Shoham.</span>
+                                <br>
+                                <span class="paper-venue">SAS 2022</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/2208.07451.pdf">[paper]</a>
+                                    <a href="assets/papers/sas22/inference-complexity-sas22.pptx">[slides]</a>
+                                    <a href="https://www.youtube.com/watch?v=Q2BTSZghJms&ab_channel=ACMSIGPLAN">[video]</a>
+                                </span>
+                            </li>
+                            <li id="popl22">
+                                <span class="paper-name">Property-Directed Reachability as Abstract Interpretation in the Monotone Theory</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span>, Mooly Sagiv, Sharon Shoham, and James R. Wilcox.</span>
+                                <br>
+                                <span class="paper-venue">POPL 2022</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/2111.00324.pdf">[paper]</a>
+                                    <a href="assets/papers/popl22/inference-complexity-popl22.pptx">[slides]</a>
+                                    <a href="https://www.youtube.com/watch?v=96ggX3Y1Sho">[video]</a>
+                                    <a href="https://www.youtube.com/watch?v=aGv5ubW-6BY">[longer video]</a>
+                                </span>
+                            </li>
+                            <li id="popl21">
+                                <span class="paper-name">Learning the Boundary of Inductive Invariants</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span>, Mooly Sagiv, Sharon Shoham, and James R. Wilcox.</span>
+                                <br>
+                                <span class="paper-venue">POPL 2021</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/2008.09909.pdf">[paper]</a>
+                                    <a href="assets/papers/popl21/inference-complexity-popl21.pptx">[slides]</a>
+                                    <a href="https://www.youtube.com/watch?v=uIlH8k4zj-w">[video]</a>
+                                </span>
+                            </li>
+                            <li id="onward20">
+                                <span class="paper-name">The Wonderful Wizard of LoC: Paying attention to the man behind the curtain of line-of-code metrics</span>
+                                <br>
+                                <span class="paper-authors">Kalev Alpernas, <span class="me">Yotam M. Y. Feldman</span>, and Hila Peleg.</span>
+                                <br>
+                                <span class="paper-venue">Onward! Essays 2020</span>
+                                <span class="paper-details">
+                                    <a href="assets/papers/onward20/onward20-loc.pdf">[paper]</a>
+                                    <a href="https://www.youtube.com/watch?v=-g5OSIor2O0">[video]</a>
+                                </span>
+                            </li>
+                            <li id="popl21">
+                                <span class="paper-name">Proving Highly-Concurrent Traversals Correct</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span>, Artem Khyzha, Constantin Enea, Adam Morrison, Aleksandar Nanevski, Noam Rinetzky, and Sharon Shoham.</span>
+                                <br>
+                                <span class="paper-venue">OOPSLA 2020</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/2010.00911.pdf">[paper]</a>
+                                    [slides]
+                                    <a href="https://www.youtube.com/watch?v=GLjEBBUEbjs">[video]</a>
+                                </span>
+                            </li>
+                            <li id="popl20">
+                                <span class="paper-name">Complexity and Information in Invariant Inference</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span>, Neil Immerman, Mooly Sagiv, and Sharon Shoham.</span>
+                                <br>
+                                <span class="paper-venue">POPL 2020</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/1910.12256.pdf">[paper]</a>
+                                    <a href="assets/papers/popl20/popl20-slides.pptx">[slides]</a>
+                                    <a href="https://www.youtube.com/watch?v=qNFDYL61puA">[video]</a>
+                                </span>
+                            </li>
+                            <li id="cav19">
+                                <span class="paper-name">Inferring Inductive Invariants from Phase Structures</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span>, James R. Wilcox, Sharon Shoham, and Mooly Sagiv.</span>
+                                <br>
+                                <span class="paper-venue">CAV 2019</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/1905.07739.pdf">[paper]</a>
+                                    <a href="assets/papers/cav19/cav19_slides.pdf">[slides]</a>
+                                    <a href="https://www.youtube.com/watch?v=ZQD78awnu-k">[video]</a>
+                                </span>
+                            </li>
+                            <li id="disc18">
+                                <span class="paper-name">Order out of Chaos: Proving Linearizability Using Local Views</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span>, Constantin Enea, Adam Morrison, Noam Rinetzky, and Sharon Shoham.</span>
+                                <br>
+                                <span class="paper-venue">DISC 2018</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/1805.03992.pdf">[paper]</a>
+                                    <a href="assets/papers/disc18/disc18_slides.pdf">[slides]</a>
+                                </span>
+                            </li>
+                            <li id="tacas17">
+                                <span class="paper-name">Bounded Quantifier Instantiation for Checking Inductive Invariants</span>
+                                <br>
+                                <span class="paper-authors"><span class="me">Yotam M. Y. Feldman</span>, Oded Padon, Neil Immerman, Mooly Sagiv, and Sharon Shoham.</span>
+                                <br>
+                                <span class="paper-venue">TACAS 2017, LMCS 2019</span>
+                                <span class="paper-details">
+                                    <a href="https://arxiv.org/pdf/1710.08668v3.pdf">[paper]</a>
+                                    <a href="assets/papers/tacas17/tacas17.pdf">[paper (conference)]</a>
+                                    <a href="assets/papers/tacas17/tacas17_slides.pdf">[slides]</a>
+                                </span>
+                            </li>
+                            <li id="vmcai17">
+                                <span class="paper-name">Property Directed Reachability for Proving Absence of Concurrent Modification Errors</span>
+                                <br>
+                                <span class="paper-authors">Asya Frumkin, <span class="me">Yotam M. Y. Feldman</span>, Ondřej Lhoták, Oded Padon, Mooly Sagiv, and Sharon Shoham.</span>
+                                <br>
+                                <span class="paper-venue">VMCAI 2017</span>
+                                <span class="paper-details">
+                                    <a href="http://www.tau.ac.il/~sharonshoham/papers/vmcai17a.pdf">[paper]</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- <div class="section" id="awards">
+                    <div class="section-title">
+                        Awards
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li id="award1">Some award</li>
+                            <li>Another award</li>
+                        </ul>
+                    </div>
+                </div> -->
+
+                <!-- <div class="section" id="outreach">
+                    <div class="section-title">
+                        Outreach
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li>Reviewed for CooLConference</li>
+                            <li>Volunteered at CoolPlace</li>
+                        </ul>
+                    </div>
+                </div> -->
+
+              <!-- <div class="section" id="talks">
+                    <div class="section-title">
+                        Talks
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li>A link to a <a href="#" target="_blank">talk about Project1</a>.</li>
+                            <li>A link to <a href="#" target="_blank">my seminar talk</a> about some other cool things.</li>
+                        </ul>
+                    </div>
+                </div> -->
+
+                <div class="section" id="teaching">
+                    <div class="section-title">
+                        Teaching
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li><a href="assets/courses/wcc20/wcc20.html">Compiler Construction (Winter 2020)</a> discussed in a <a href="https://blog.sigplan.org/2021/02/23/teaching-compilers-backward/">PL Perspective</a></li> 
+                            <li><a href="https://www.cs.tau.ac.il/~msagiv/courses/pl19.html">Concepts in Programming Languages (Spring 2019)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Profile picture div-->
+            <div id="picture" class="section col-md-3 align-left">
+                <img src="assets/img/profile-pic-schmidt-oxford.jpg">
+                <span class='caption'>Photo credit: Adrian Travis</span>
+            </div>
+        </div>
+
+
+        <div id="footer-placeholder"></div>
+
+
+
+        <!-- Scripts -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
